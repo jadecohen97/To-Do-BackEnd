@@ -1,0 +1,30 @@
+{
+  "name": "to-do-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jadecohen97/To-Do-BackEnd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jadecohen97/To-Do-BackEnd/issues"
+  },
+  "homepage": "https://github.com/jadecohen97/To-Do-BackEnd#readme",
+  "dependencies": {
+    "@nearform/sql": "^1.9.2",
+    "cors": "^2.8.5",
+    "date-format": "^4.0.11",
+    "dateformat": "^5.0.3",
+    "express": "^4.18.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.18",
+    "uuidv4": "^6.2.13"
+  }
+}
